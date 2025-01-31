@@ -8,4 +8,4 @@ During my research, I encountered inconsistencies in how the pins are named and 
 
 ![Alt text](https://github.com/costycnc/Arduino-code-to-turn-stepper-motor-mks-dlc32-74hc595-onboard/blob/main/mks.png)
 
-https://github.com/costycnc/Arduino-code-to-turn-stepper-motor-mks-dlc32-74hc595-onboard/blob/main/mks.png
+
