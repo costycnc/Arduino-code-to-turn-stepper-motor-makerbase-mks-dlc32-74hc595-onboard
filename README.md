@@ -6,4 +6,4 @@ This example demonstrates the pins used to control all three stepper motors.  A 
 
 During my research, I encountered inconsistencies in how the pins are named and referenced in various sources.  This code aims to clarify these discrepancies.
 
-![Alt text](path/to/image.jpg)
+![Alt text](https://github.com/costycnc/Arduino-code-to-turn-stepper-motor-mks-dlc32-74hc595-onboard/blob/main/mks.avif)
