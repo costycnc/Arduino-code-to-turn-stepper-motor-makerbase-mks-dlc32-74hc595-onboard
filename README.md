@@ -43,7 +43,7 @@ During my research, I encountered inconsistencies in how the pins are named and 
      So ... if write 0 wait and after 2 and wait at infinite , all drivers will be active because PBO rimain all time LOW
      only PB1 STEPX will be high and low intermitent , so motor axe x will turn
 
-     In this mode you can control all pins of driver X,Y,Z !!!
+     So ...in this instruction shiftOut(21, 16, MSBFIRST, X) if change X with values from 0 to 255 you can control all pins of driver X,Y,Z inclusive the beeper!!!
      
 
      
