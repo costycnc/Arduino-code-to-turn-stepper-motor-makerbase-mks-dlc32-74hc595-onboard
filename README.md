@@ -1,4 +1,4 @@
-# Arduino-code-to-turn-stepper-motor-mks-dlc32-74hc595-onboard
+# Arduino-code-to-turn-stepper-motor-makerbase-mks-dlc32-74hc595-onboard
 
 The Makerbase MKS DLC32 v2.1 uses an onboard 74HC595 high-speed CMOS 8-bit shift register with output latches (3-state).
 
