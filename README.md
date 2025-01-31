@@ -10,7 +10,16 @@ During my research, I encountered inconsistencies in how the pins are named and 
 
 ![image](https://github.com/user-attachments/assets/39e4adbb-b22f-49b7-b71b-c8c5590ea13a)
 
-     QA-XYZ ENABLE,QB-STEPX,QC-DIRX,QD-STEPZ,QE-DIRZ,QF-STEPY,QG-DIRY,QH-BEEPER
+     BIT0 -QA-XYZ ENABLE
+     BIT1 -QB-STEPX
+     BIT2 -QC-DIRX
+     BIT3 -QD-STEPZ
+     BIT4 -QE-DIRZ
+     BIT5 -QF-STEPY
+     BIT6 -QG-DIRY
+     BIT7 -QH-BEEPER
+
+     
 
 
     ESP32 IO17  -->   74HC595 PIN12-Storage register clock input
