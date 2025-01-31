@@ -1,5 +1,5 @@
 //**************************************************************//
-//  Name    : Mks Dlc32 turn stepper motor directly
+//  Name    : Makerbase Mks Dlc32 V2.1 turn stepper motor directly
 //  Author  : Costycnc
 //  Date    : 31 Jan, 2025
 //  Notes   : Code for using a onboard 74HC595 Shift Register           //
