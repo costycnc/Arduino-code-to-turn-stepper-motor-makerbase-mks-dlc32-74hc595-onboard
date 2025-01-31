@@ -32,7 +32,7 @@ During my research, I encountered inconsistencies in how the pins are named and 
      DIRY STEPY DIRZ STEPZ DIRX STEPX ENABLEXYZ
      LOW  LOW   LOW  LOW   LOW  LOW   LOW
 
-     Keep in mind that PIN ENABLE LOW mean that driver is active (PIN ENABLE HIGH make the driver inactive)
+     Keep in mind that PIN ENABLE LOW make the driver active (PIN ENABLE HIGH make the driver inactive)
 
      In this instruction shiftOut(21, 16, MSBFIRST, 2) mean that all pins will be LOW only BIT1 will be HIGH
 
