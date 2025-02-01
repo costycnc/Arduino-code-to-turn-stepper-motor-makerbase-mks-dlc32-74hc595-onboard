@@ -45,6 +45,15 @@ During my research, I encountered inconsistencies in how the pins are named and 
 
      So ...in this instruction shiftOut(21, 16, MSBFIRST, X) if change X with values from 0 to 255 you can control all pins of driver X,Y,Z inclusive the beeper!!!
      
+source https://techoverflow.net/2021/07/26/how-to-connect-esp32-wroom-32-sensor_vp-sensor_vn-pins/
+
+         If you are making a PCB using the ESP32-WROOM-32 module, you might be wondering how to connect theSENSOR_VP and SENSOR_VN pins (pins 4 & 5).
+
+        These pins are made to accurately measure differential low-voltage signals using the ESP32 12-bit ADC. If you want to measure a differential signal, connect SENSOR_VP to the positive voltage of your analog signal and connect SENSOR_VN to the negative voltage of your analog signal. Take care not to exceed the maximum voltage range of approx. 0..3.3V for the ESP32, else you will damage the chip!
+        These pins can be used as normal GPIOs: SENSOR_VP is GPIO36 and SENSOR_VN is GPIO39, however these are input-only, you can’t use them as output!
+        If you don’t need the pins, connect them to GND, or just leave them open (i.e. don’t connect them at all)
+        Source & further reading: ESP32-WROOM-32 reference manual
+     
 
      
 
