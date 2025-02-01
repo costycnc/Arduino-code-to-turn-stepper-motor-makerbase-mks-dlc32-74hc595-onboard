@@ -45,7 +45,8 @@ During my research, I encountered inconsistencies in how the pins are named and 
 
      So ...in this instruction shiftOut(21, 16, MSBFIRST, X) if change X with values from 0 to 255 you can control all pins of driver X,Y,Z inclusive the beeper!!!
 
-     ![image](https://github.com/user-attachments/assets/940dd2f8-e103-42f1-9925-e1328d4435b8)
+     
+![image](https://github.com/user-attachments/assets/7afb095d-45cf-48c1-a264-106649dd4cb4)
 
      
 source https://techoverflow.net/2021/07/26/how-to-connect-esp32-wroom-32-sensor_vp-sensor_vn-pins/
